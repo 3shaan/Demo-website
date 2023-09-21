@@ -20,8 +20,8 @@ export default function Sidebar() {
         }
     ]
   return (
-    <section className='w-full col-span-1 bg-gray-500 h-screen'>
-        <div className='w-11/12 mx-auto mt-10 space-y-3'>
+    <section className='w-full bg-gray-500 h-screen'>
+        <div className='w-11/12 mx-auto pt-6 space-y-3'>
         <p>Sidebar</p>
         <Select selectData={selectData} selected={1}/>
         <div className='space-y-2 pl-12'>
